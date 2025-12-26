@@ -33,5 +33,6 @@ public class Simulacion {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("Terminado");
 	}
 }
