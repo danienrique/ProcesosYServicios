@@ -13,6 +13,8 @@ public class Ej2 {
 			int c;
 			while((c = is.read())!= -1) {
 				System.out.println((char)c);
+				System.out.println(System.getProperty("java.version"));
+
 			}
 		}
 	}
