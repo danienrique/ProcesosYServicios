@@ -20,7 +20,7 @@ class HiloCadena2 extends Thread {
 					e.printStackTrace();
 				}
 			} // for
-			objeto.notify(); // despertar a todos los wait sobre el objeto
+//			objeto.notify(); // despertar a todos los wait sobre el objeto
 		} // fin bloque synchronized
 
 		// System.out.print("\n"+cad + " finalizado");
