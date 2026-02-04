@@ -2,8 +2,8 @@ package Hiloss2_2;
 
 public class Cuenta {
 	private int numeros_Reintegro, saldo;
-	Cuenta(int num, int sal){
-		this.numeros_Reintegro = num;
+	boolean aux = true;
+	Cuenta(int sal){
 		this.saldo = sal;
 	}
 	public int getNumeros_Reintegro() {
